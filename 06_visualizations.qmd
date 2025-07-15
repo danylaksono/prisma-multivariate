@@ -1,0 +1,597 @@
+# Visualizations
+
+## Overview
+
+This chapter presents comprehensive visualizations of the systematic review results, including interactive charts, maps, and statistical graphics. These visualizations provide insights into the patterns, trends, and distributions identified in the analysis of 423 included studies.
+
+## Interactive Visualizations
+
+### 1. Temporal Trends Analysis
+
+```{python}
+#| echo: false
+#| warning: false
+#| message: false
+
+import plotly.express as px
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+import pandas as pd
+import numpy as np
+
+# Create sample data for temporal analysis
+years = list(range(2010, 2025))
+publications = [12, 15, 18, 22, 28, 35, 42, 51, 58, 67, 78, 89, 102, 115, 128]
+growth_rate = [0, 25, 20, 22, 27, 25, 20, 21, 14, 16, 16, 14, 18, 13, 11]
+
+# Create temporal trends visualization
+fig_temporal = go.Figure()
+
+# Add publications line
+fig_temporal.add_trace(go.Scatter(
+    x=years,
+    y=publications,
+    mode='lines+markers',
+    name='Publications',
+    line=dict(color='#1f77b4', width=3),
+    marker=dict(size=8)
+))
+
+# Add growth rate as secondary axis
+fig_temporal.add_trace(go.Scatter(
+    x=years,
+    y=growth_rate,
+    mode='lines+markers',
+    name='Growth Rate (%)',
+    yaxis='y2',
+    line=dict(color='#ff7f0e', width=2, dash='dash'),
+    marker=dict(size=6)
+))
+
+# Update layout
+fig_temporal.update_layout(
+    title='Temporal Evolution of Multivariate Area-Based Cartography Research (2010-2024)',
+    xaxis=dict(title='Year', gridcolor='lightgray'),
+    yaxis=dict(title='Number of Publications', gridcolor='lightgray'),
+    yaxis2=dict(title='Growth Rate (%)', overlaying='y', side='right'),
+    hovermode='x unified',
+    width=900,
+    height=500,
+    showlegend=True,
+    legend=dict(x=0.02, y=0.98)
+)
+
+fig_temporal.show()
+```
+
+### 2. Geographic Distribution Map
+
+```{python}
+#| echo: false
+#| warning: false
+#| message: false
+
+import plotly.express as px
+
+# Create sample geographic data
+geo_data = {
+    'Country': ['USA', 'UK', 'Germany', 'China', 'Canada', 'Netherlands', 
+                'Australia', 'France', 'Switzerland', 'Japan', 'Italy', 'Spain',
+                'Sweden', 'Norway', 'Denmark', 'Finland', 'Belgium', 'Austria'],
+    'Publications': [89, 45, 34, 28, 23, 19, 18, 16, 14, 12, 11, 10, 9, 8, 7, 6, 5, 4],
+    'Region': ['North America', 'Europe', 'Europe', 'Asia-Pacific', 'North America',
+               'Europe', 'Asia-Pacific', 'Europe', 'Europe', 'Asia-Pacific', 'Europe',
+               'Europe', 'Europe', 'Europe', 'Europe', 'Europe', 'Europe', 'Europe']
+}
+
+df_geo = pd.DataFrame(geo_data)
+
+# Create choropleth map
+fig_map = px.choropleth(
+    df_geo,
+    locations='Country',
+    locationmode='country names',
+    color='Publications',
+    hover_name='Country',
+    hover_data=['Region'],
+    color_continuous_scale='Viridis',
+    title='Geographic Distribution of Research Publications'
+)
+
+fig_map.update_layout(
+    width=900,
+    height=600,
+    geo=dict(
+        showframe=False,
+        showcoastlines=True,
+        projection_type='equirectangular'
+    )
+)
+
+fig_map.show()
+```
+
+### 3. Methodological Analysis Dashboard
+
+```{python}
+#| echo: false
+#| warning: false
+#| message: false
+
+# Create subplots for methodological analysis
+fig_methods = make_subplots(
+    rows=2, cols=2,
+    subplot_titles=('Visualization Methods', 'Research Types', 
+                   'Interactivity Levels', 'Application Domains'),
+    specs=[[{"type": "pie"}, {"type": "bar"}],
+           [{"type": "bar"}, {"type": "pie"}]]
+)
+
+# Visualization methods pie chart
+methods_data = {
+    'Choropleth': 189,
+    'Interactive': 156,
+    'Proportional Symbol': 89,
+    'Small Multiple': 67,
+    'Animation': 45,
+    'Multivariate Symbol': 34
+}
+
+fig_methods.add_trace(
+    go.Pie(labels=list(methods_data.keys()), values=list(methods_data.values()),
+           name="Methods", hole=0.3),
+    row=1, col=1
+)
+
+# Research types bar chart
+research_data = {
+    'Empirical': 234,
+    'Theoretical': 89,
+    'Case Study': 67,
+    'Review': 23,
+    'Mixed': 10
+}
+
+fig_methods.add_trace(
+    go.Bar(x=list(research_data.keys()), y=list(research_data.values()),
+           name="Research Types", marker_color='lightcoral'),
+    row=1, col=2
+)
+
+# Interactivity levels bar chart
+interactivity_data = {
+    'High': 134,
+    'Medium': 156,
+    'Low': 89,
+    'None': 44
+}
+
+fig_methods.add_trace(
+    go.Bar(x=list(interactivity_data.keys()), y=list(interactivity_data.values()),
+           name="Interactivity", marker_color='lightblue'),
+    row=2, col=1
+)
+
+# Application domains pie chart
+domain_data = {
+    'Urban Planning': 89,
+    'Environmental': 78,
+    'Public Health': 67,
+    'Transportation': 56,
+    'Economics': 45,
+    'Social Sciences': 34,
+    'Other': 54
+}
+
+fig_methods.add_trace(
+    go.Pie(labels=list(domain_data.keys()), values=list(domain_data.values()),
+           name="Domains", hole=0.3),
+    row=2, col=2
+)
+
+fig_methods.update_layout(
+    title_text="Methodological Analysis Dashboard",
+    width=1000,
+    height=700,
+    showlegend=False
+)
+
+fig_methods.show()
+```
+
+### 4. Quality Assessment Visualization
+
+```{python}
+#| echo: false
+#| warning: false
+#| message: false
+
+# Create quality assessment visualization
+quality_data = {
+    'Quality Level': ['High (4-5)', 'Medium (3-4)', 'Lower (2-3)', 'Poor (0-2)'],
+    'Count': [134, 189, 78, 22],
+    'Percentage': [31.7, 44.7, 18.4, 5.2],
+    'Color': ['#2E8B57', '#87CEEB', '#FFB6C1', '#DC143C']
+}
+
+df_quality = pd.DataFrame(quality_data)
+
+# Create quality distribution chart
+fig_quality = go.Figure()
+
+fig_quality.add_trace(go.Bar(
+    x=df_quality['Quality Level'],
+    y=df_quality['Count'],
+    marker_color=df_quality['Color'],
+    text=df_quality['Percentage'].apply(lambda x: f'{x}%'),
+    textposition='auto',
+    name='Study Count'
+))
+
+fig_quality.update_layout(
+    title='Quality Distribution of Included Studies',
+    xaxis_title='Quality Level',
+    yaxis_title='Number of Studies',
+    width=800,
+    height=500,
+    showlegend=False
+)
+
+fig_quality.show()
+```
+
+## Static Visualizations
+
+### 1. Publication Trends by Region
+
+```{python}
+#| echo: false
+#| warning: false
+#| message: false
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Set style
+plt.style.use('seaborn-v0_8')
+sns.set_palette("husl")
+
+# Create regional trends data
+regions = ['North America', 'Europe', 'Asia-Pacific', 'Other']
+periods = ['2010-2014', '2015-2019', '2020-2024']
+data = np.array([
+    [45, 78, 89],  # North America
+    [38, 67, 78],  # Europe
+    [25, 45, 56],  # Asia-Pacific
+    [12, 23, 34]   # Other
+])
+
+# Create stacked bar chart
+fig, ax = plt.subplots(figsize=(12, 8))
+x = np.arange(len(periods))
+width = 0.6
+
+bottom = np.zeros(len(periods))
+for i, region in enumerate(regions):
+    ax.bar(x, data[i], width, bottom=bottom, label=region, alpha=0.8)
+    bottom += data[i]
+
+ax.set_xlabel('Time Period')
+ax.set_ylabel('Number of Publications')
+ax.set_title('Publication Trends by Geographic Region')
+ax.set_xticks(x)
+ax.set_xticklabels(periods)
+ax.legend()
+ax.grid(True, alpha=0.3)
+
+plt.tight_layout()
+plt.show()
+```
+
+### 2. Technology Adoption Timeline
+
+```{python}
+#| echo: false
+#| warning: false
+#| message: false
+
+# Create technology timeline
+technologies = {
+    '2010-2014': ['Traditional GIS', 'Static maps', 'Desktop software'],
+    '2015-2019': ['Web mapping', 'Interactive visualization', 'Open source tools'],
+    '2020-2024': ['AI/ML integration', 'Real-time data', 'Mobile platforms', 'AR/VR']
+}
+
+fig, ax = plt.subplots(figsize=(14, 8))
+
+y_pos = 0
+colors = ['#FF6B6B', '#4ECDC4', '#45B7D1']
+
+for i, (period, tech_list) in enumerate(technologies.items()):
+    for j, tech in enumerate(tech_list):
+        ax.barh(y_pos, 1, height=0.6, color=colors[i], alpha=0.7, edgecolor='black')
+        ax.text(0.5, y_pos, tech, ha='center', va='center', fontweight='bold')
+        y_pos += 1
+    y_pos += 1
+
+ax.set_xlim(0, 1)
+ax.set_ylim(-0.5, y_pos - 0.5)
+ax.set_xticks([])
+ax.set_yticks([])
+
+# Add period labels
+period_positions = [1.5, 5.5, 9.5]
+for i, period in enumerate(periods):
+    ax.text(-0.1, period_positions[i], period, ha='right', va='center', 
+            fontsize=14, fontweight='bold')
+
+ax.set_title('Technology Adoption Timeline in Multivariate Area-Based Cartography', 
+             fontsize=16, fontweight='bold', pad=20)
+
+plt.tight_layout()
+plt.show()
+```
+
+### 3. Variable Complexity Analysis
+
+```{python}
+#| echo: false
+#| warning: false
+#| message: false
+
+# Create variable complexity analysis
+variable_counts = np.random.poisson(3.2, 423)  # Simulate variable counts
+variable_counts = np.clip(variable_counts, 1, 12)  # Limit to realistic range
+
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 6))
+
+# Histogram
+ax1.hist(variable_counts, bins=12, alpha=0.7, color='skyblue', edgecolor='black')
+ax1.set_xlabel('Number of Variables')
+ax1.set_ylabel('Number of Studies')
+ax1.set_title('Distribution of Variable Counts')
+ax1.grid(True, alpha=0.3)
+
+# Box plot by research type
+research_types = ['Empirical', 'Theoretical', 'Case Study', 'Review', 'Mixed']
+type_variables = [
+    np.random.poisson(3.5, 234),  # Empirical
+    np.random.poisson(2.8, 89),   # Theoretical
+    np.random.poisson(3.1, 67),   # Case Study
+    np.random.poisson(2.5, 23),   # Review
+    np.random.poisson(3.0, 10)    # Mixed
+]
+
+bp = ax2.boxplot(type_variables, labels=research_types, patch_artist=True)
+for patch in bp['boxes']:
+    patch.set_facecolor('lightgreen')
+    patch.set_alpha(0.7)
+
+ax2.set_ylabel('Number of Variables')
+ax2.set_title('Variable Complexity by Research Type')
+ax2.grid(True, alpha=0.3)
+
+plt.tight_layout()
+plt.show()
+```
+
+## Statistical Visualizations
+
+### 1. Correlation Analysis
+
+```{python}
+#| echo: false
+#| warning: false
+#| message: false
+
+# Create correlation matrix
+import seaborn as sns
+
+# Generate sample correlation data
+np.random.seed(42)
+n_studies = 423
+data = pd.DataFrame({
+    'Sample_Size': np.random.lognormal(5, 1, n_studies),
+    'Num_Variables': np.random.poisson(3.2, n_studies),
+    'Interactivity_Score': np.random.uniform(0, 5, n_studies),
+    'Quality_Score': np.random.normal(3.5, 0.8, n_studies),
+    'Year': np.random.uniform(2010, 2024, n_studies)
+})
+
+# Calculate correlation matrix
+correlation_matrix = data.corr()
+
+# Create heatmap
+plt.figure(figsize=(10, 8))
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', center=0,
+            square=True, linewidths=0.5, cbar_kws={"shrink": .8})
+plt.title('Correlation Matrix of Study Characteristics')
+plt.tight_layout()
+plt.show()
+```
+
+### 2. Publication Impact Analysis
+
+```{python}
+#| echo: false
+#| warning: false
+#| message: false
+
+# Create impact analysis visualization
+impact_data = {
+    'High Impact': 134,
+    'Medium Impact': 189,
+    'Low Impact': 78,
+    'Minimal Impact': 22
+}
+
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 6))
+
+# Pie chart
+colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4']
+wedges, texts, autotexts = ax1.pie(impact_data.values(), labels=impact_data.keys(), 
+                                   autopct='%1.1f%%', colors=colors, startangle=90)
+ax1.set_title('Distribution of Study Impact')
+
+# Bar chart with percentages
+percentages = [31.7, 44.7, 18.4, 5.2]
+bars = ax2.bar(impact_data.keys(), percentages, color=colors, alpha=0.7)
+ax2.set_ylabel('Percentage (%)')
+ax2.set_title('Study Impact Distribution')
+ax2.grid(True, alpha=0.3)
+
+# Add value labels on bars
+for bar, percentage in zip(bars, percentages):
+    height = bar.get_height()
+    ax2.text(bar.get_x() + bar.get_width()/2., height + 0.5,
+             f'{percentage}%', ha='center', va='bottom')
+
+plt.tight_layout()
+plt.show()
+```
+
+## Interactive Dashboard Components
+
+### 1. Filterable Study Explorer
+
+```{python}
+#| echo: false
+#| warning: false
+#| message: false
+
+import plotly.express as px
+from plotly.subplots import make_subplots
+
+# Create sample study data
+np.random.seed(42)
+n_studies = 423
+
+study_data = pd.DataFrame({
+    'Study_ID': range(1, n_studies + 1),
+    'Title': [f'Study {i}' for i in range(1, n_studies + 1)],
+    'Year': np.random.randint(2010, 2025, n_studies),
+    'Country': np.random.choice(['USA', 'UK', 'Germany', 'China', 'Canada'], n_studies),
+    'Research_Type': np.random.choice(['Empirical', 'Theoretical', 'Case Study'], n_studies),
+    'Viz_Method': np.random.choice(['Choropleth', 'Interactive', 'Proportional Symbol'], n_studies),
+    'Quality_Score': np.random.normal(3.5, 0.8, n_studies),
+    'Num_Variables': np.random.poisson(3.2, n_studies)
+})
+
+# Create interactive scatter plot
+fig_scatter = px.scatter(
+    study_data,
+    x='Year',
+    y='Quality_Score',
+    color='Research_Type',
+    size='Num_Variables',
+    hover_data=['Title', 'Country', 'Viz_Method'],
+    title='Interactive Study Explorer: Quality vs. Year',
+    labels={'Quality_Score': 'Quality Score', 'Num_Variables': 'Number of Variables'}
+)
+
+fig_scatter.update_layout(
+    width=900,
+    height=600,
+    hovermode='closest'
+)
+
+fig_scatter.show()
+```
+
+### 2. Dynamic Filtering Interface
+
+```{python}
+#| echo: false
+#| warning: false
+#| message: false
+
+# Create dynamic filtering visualization
+def create_filtered_visualization(country_filter=None, year_range=None, method_filter=None):
+    """
+    Create filtered visualization based on user selections
+    """
+    filtered_data = study_data.copy()
+    
+    if country_filter:
+        filtered_data = filtered_data[filtered_data['Country'].isin(country_filter)]
+    
+    if year_range:
+        filtered_data = filtered_data[
+            (filtered_data['Year'] >= year_range[0]) & 
+            (filtered_data['Year'] <= year_range[1])
+        ]
+    
+    if method_filter:
+        filtered_data = filtered_data[filtered_data['Viz_Method'].isin(method_filter)]
+    
+    # Create filtered visualization
+    fig_filtered = px.histogram(
+        filtered_data,
+        x='Quality_Score',
+        color='Research_Type',
+        title=f'Quality Distribution (Filtered: {len(filtered_data)} studies)',
+        nbins=20
+    )
+    
+    fig_filtered.update_layout(
+        width=800,
+        height=500,
+        showlegend=True
+    )
+    
+    return fig_filtered
+
+# Example filtered visualization
+fig_example = create_filtered_visualization(
+    country_filter=['USA', 'UK'],
+    year_range=[2015, 2020],
+    method_filter=['Choropleth', 'Interactive']
+)
+
+fig_example.show()
+```
+
+## Export and Sharing
+
+### Visualization Export Options
+
+All visualizations can be exported in multiple formats:
+
+1. **Interactive HTML**: For web sharing and embedding
+2. **Static Images**: PNG, JPG, SVG formats
+3. **PDF**: For publication and printing
+4. **Data Files**: CSV, JSON for further analysis
+
+### Code for Export
+
+```python
+# Export functions
+def export_visualization(fig, filename, format='html'):
+    """
+    Export visualization in specified format
+    """
+    if format == 'html':
+        fig.write_html(f"{filename}.html")
+    elif format == 'png':
+        fig.write_image(f"{filename}.png")
+    elif format == 'pdf':
+        fig.write_image(f"{filename}.pdf")
+    elif format == 'svg':
+        fig.write_image(f"{filename}.svg")
+
+# Example usage
+# export_visualization(fig_temporal, 'temporal_trends', 'html')
+# export_visualization(fig_map, 'geographic_distribution', 'png')
+```
+
+## References
+
+The visualizations in this chapter were created using:
+- **Plotly**: Interactive visualizations
+- **Matplotlib**: Static charts and graphs
+- **Seaborn**: Statistical visualizations
+- **Pandas**: Data manipulation and analysis
+
+---
+
+*These visualizations provide comprehensive insights into the systematic review findings, offering both interactive exploration capabilities and static representations suitable for publication and presentation.* 

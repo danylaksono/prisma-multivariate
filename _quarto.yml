@@ -1,0 +1,25 @@
+project:
+  type: book
+  output-dir: _output
+
+book:
+  title: "Systematic Review of Multivariate Area-Based Cartography"
+  author: "Dany Puguh Laksono"
+  chapters:
+    - index.qmd
+    - 01_search.qmd
+    - 02_screening.qmd
+    - 03_extraction.qmd
+    - 04_synthesis.qmd
+    - 05_prisma_diagram.qmd
+    - 06_visualizations.qmd
+    - 07_appendices.qmd
+bibliography: references.bib
+csl: custom.csl
+format:
+  html:
+    toc: true
+    number-sections: true
+    code-fold: true
+  pdf:
+    number-sections: true

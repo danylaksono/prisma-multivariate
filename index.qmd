@@ -1,0 +1,85 @@
+---
+title: "Systematic Review of Multivariate Area-Based Cartography"
+subtitle: "A Comprehensive Analysis of Current Methods and Applications"
+author: "Dany Puguh Laksono"
+date: last-modified
+format:
+  html:
+    toc: true
+    number-sections: true
+    code-fold: true
+    theme: cosmo
+  pdf:
+    number-sections: true
+---
+
+# Introduction {.unnumbered}
+
+## Background
+
+Multivariate area-based cartography represents a critical intersection between geographic information science, data visualization, and statistical analysis. This systematic review aims to comprehensively analyze current methods, applications, and challenges in this field.
+
+## Objectives
+
+The primary objectives of this systematic review are:
+
+1. **Methodological Analysis**: To identify and evaluate current methods for multivariate area-based cartography
+2. **Application Assessment**: To examine real-world applications and use cases
+3. **Technology Review**: To assess the role of emerging technologies in this field
+4. **Gap Identification**: To identify research gaps and future directions
+
+## Research Questions
+
+This review addresses the following research questions:
+
+- What are the current state-of-the-art methods for multivariate area-based cartography?
+- How do different visualization techniques perform in representing multivariate spatial data?
+- What are the main challenges and limitations in current approaches?
+- What emerging technologies are influencing this field?
+- What are the future research directions and opportunities?
+
+## Scope and Definitions
+
+**Multivariate Area-Based Cartography**: The representation of multiple variables across geographic areas using cartographic techniques, including choropleth maps, proportional symbol maps, and other area-based visualization methods.
+
+**Key Terms**:
+- **Multivariate**: Involving multiple variables or dimensions
+- **Area-based**: Relating to geographic areas or regions
+- **Cartography**: The science and art of map-making
+- **Visualization**: The graphical representation of data
+
+## Structure of This Review
+
+This systematic review is organized into the following chapters:
+
+1. **Search Strategy** - Methodology for literature identification
+2. **Screening Process** - Criteria and process for study selection
+3. **Data Extraction** - Framework for extracting relevant information
+4. **Synthesis** - Analysis and synthesis of findings
+5. **PRISMA Diagram** - Visual representation of the review process
+6. **Visualizations** - Interactive and static visualizations of results
+7. **Appendices** - Additional materials and supplementary information
+
+## Methodology Overview
+
+This review follows the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines to ensure methodological rigor and transparency. The process includes:
+
+- Systematic literature search across multiple databases
+- Rigorous screening and selection criteria
+- Structured data extraction
+- Qualitative and quantitative synthesis
+- Quality assessment of included studies
+
+## Expected Contributions
+
+This systematic review is expected to contribute to the field by:
+
+- Providing a comprehensive overview of current methods
+- Identifying research gaps and opportunities
+- Offering practical insights for practitioners
+- Suggesting future research directions
+- Establishing a foundation for further studies in this area
+
+---
+
+*This systematic review represents a comprehensive effort to understand and synthesize the current state of multivariate area-based cartography, providing valuable insights for researchers, practitioners, and policymakers in the field of geographic information science and data visualization.* 

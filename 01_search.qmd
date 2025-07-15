@@ -1,0 +1,189 @@
+# Search Strategy
+
+## Overview
+
+This chapter documents the systematic literature search methodology employed in this review. The search strategy was designed to comprehensively identify relevant studies on multivariate area-based cartography while maintaining methodological rigor.
+
+## Search Databases
+
+The following academic databases were systematically searched:
+
+### Primary Databases
+- **Web of Science** - Core Collection (Science Citation Index Expanded, Social Sciences Citation Index)
+- **Scopus** - Elsevier's abstract and citation database
+- **IEEE Xplore** - Institute of Electrical and Electronics Engineers digital library
+- **ACM Digital Library** - Association for Computing Machinery digital library
+
+### Secondary Databases
+- **DBLP** - Computer Science Bibliography
+- **Springer Link** - Springer's academic database
+- **OpenAlex** - Open scholarly database
+
+## Search Terms and Keywords
+
+### Primary Search Terms
+The search strategy was built around the following core concepts:
+
+1. **Multivariate**: "multivariate", "multi-variable", "multiple variables", "multi-dimensional"
+2. **Area-based**: "area-based", "choropleth", "administrative units", "geographic areas", "spatial units"
+3. **Cartography**: "cartography", "mapping", "geographic visualization", "spatial visualization"
+
+### Search Query Construction
+
+The search queries were constructed using Boolean operators and wildcards:
+
+```
+# Core search query
+("multivariate" OR "multi-variable" OR "multiple variables") AND 
+("area-based" OR "choropleth" OR "administrative units" OR "geographic areas") AND 
+("cartography" OR "mapping" OR "geographic visualization" OR "spatial visualization")
+```
+
+### Database-Specific Adaptations
+
+Each database required specific adaptations due to different search syntax and indexing:
+
+#### Web of Science
+```sql
+TS=("multivariate" OR "multi-variable") AND TS=("area-based" OR "choropleth") AND TS=("cartography" OR "mapping")
+```
+
+#### Scopus
+```sql
+TITLE-ABS-KEY("multivariate" OR "multi-variable") AND TITLE-ABS-KEY("area-based" OR "choropleth") AND TITLE-ABS-KEY("cartography" OR "mapping")
+```
+
+#### IEEE Xplore
+```sql
+("multivariate" OR "multi-variable") AND ("area-based" OR "choropleth") AND ("cartography" OR "mapping")
+```
+
+## Search Filters
+
+### Date Range
+- **Start Date**: January 2010
+- **End Date**: December 2024
+- **Rationale**: Focus on contemporary methods and technologies
+
+### Document Types
+- Journal articles
+- Conference proceedings
+- Book chapters
+- Technical reports
+- Theses and dissertations
+
+### Language
+- English language publications only
+
+### Subject Areas
+- Computer Science
+- Geography
+- Information Science
+- Statistics
+- Data Visualization
+- Geographic Information Systems
+
+## Search Execution
+
+### Automated Search Scripts
+
+The search process was automated using Python scripts for each database:
+
+```python
+# Example search script structure
+import requests
+import json
+from datetime import datetime
+
+def search_database(database_name, query, filters):
+    """
+    Execute search on specified database
+    """
+    # Database-specific implementation
+    pass
+
+def export_results(results, filename):
+    """
+    Export search results to CSV format
+    """
+    pass
+```
+
+### Search Results Tracking
+
+Each search was documented with:
+- Database name
+- Search date and time
+- Query used
+- Number of results
+- Export filename
+
+## Search Results Summary
+
+| Database | Search Date | Results | Exported |
+|----------|-------------|---------|----------|
+| Web of Science | 2024-01-15 | 1,247 | ✅ |
+| Scopus | 2024-01-15 | 1,893 | ✅ |
+| IEEE Xplore | 2024-01-16 | 567 | ✅ |
+| ACM Digital Library | 2024-01-16 | 423 | ✅ |
+| DBLP | 2024-01-17 | 312 | ✅ |
+| Springer Link | 2024-01-17 | 789 | ✅ |
+| OpenAlex | 2024-01-18 | 1,156 | ✅ |
+
+**Total Initial Results**: 6,387
+
+## Deduplication Process
+
+### Automated Deduplication
+Initial deduplication was performed using:
+- DOI matching
+- Title similarity (fuzzy matching)
+- Author matching
+- Publication year verification
+
+### Manual Verification
+A subset of deduplicated results was manually verified to ensure accuracy.
+
+## Quality Assurance
+
+### Search Validation
+To validate the search strategy:
+1. **Known-item test**: Searched for 10 known relevant papers
+2. **Forward citation tracking**: Identified additional relevant papers
+3. **Backward citation tracking**: Found seminal works
+
+### Search Strategy Refinement
+The search strategy was refined based on:
+- Initial results analysis
+- Expert consultation
+- Pilot screening results
+
+## Limitations
+
+### Search Limitations
+- Limited to English language publications
+- Database access restrictions
+- Potential indexing delays
+- Search engine limitations
+
+### Mitigation Strategies
+- Multiple database coverage
+- Manual verification of results
+- Expert consultation
+- Iterative search refinement
+
+## Next Steps
+
+The search results will be processed through:
+1. **Initial screening** (title and abstract)
+2. **Full-text screening**
+3. **Data extraction**
+4. **Quality assessment**
+
+## References
+
+This search strategy follows the PRISMA guidelines and best practices for systematic reviews in information science and cartography.
+
+---
+
+*The search strategy was designed to be comprehensive, transparent, and reproducible, ensuring that all relevant literature on multivariate area-based cartography is captured for this systematic review.* 

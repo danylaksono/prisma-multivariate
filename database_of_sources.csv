@@ -1,0 +1,31 @@
+Publication_name,Type,Indexed_in,Other_index,ISSN,e-ISSN,Publisher,Link,Domain,Remark
+Cartographic Journal,Journal,Scopus,,0008-7041,1743-2774,Taylor and Francis,https://www.tandfonline.com/journals/ycaj20,Geospatial,(TITLE-ABS-KEY(geospatial AND visualization) AND ISSN({issn})) AND (PUBYEAR AFT 2009 AND PUBYEAR BEF 2024)
+The Advances in Cartography and GIScience,Conference,Copernicus,,2570-2084,-,Copernicus,https://www.advances-in-cartography-and-giscience-of-the-ica.net/,Geospatial,
+Transactions in GIS,Journal,Scopus,,1467-9671,1361-1682,Wiley,https://onlinelibrary.wiley.com/journal/14679671,Geospatial,
+ISPRS International Journal of Geo-Information (IJGI),Journal,Scopus,,-, 2220-9964,MDPI,https://www.mdpi.com/journal/ijgi,Geospatial,
+International Journal of Geographical Information Science (IJGIS),Journal,Scopus,,1365-8816,1365-8824,Taylor and Francis,https://www.tandfonline.com/toc/tgis20/current,Geospatial,
+Cartography and Geographic Information Science (CaGIS),Journal,Scopus,,1523-0406,-,Taylor and Francis,https://www.tandfonline.com/toc/tcag20/current,Geospatial,
+Cartographic Perspective,Journal,Scopus,,1048-9053,-,OJS,https://cartographicperspectives.org/index.php/journal,Geospatial,
+International Journal of Cartography,Journal,Scopus,, 2372-9333, 2372-9341,Taylor and Francis,https://www.tandfonline.com/journals/tica20,Geospatial,
+Journal of Spatial Information Science,Journal,Scopus,,1948-660X,-,OJS,https://josis.org/index.php/josis,Geospatial,
+ACM SIGSpatial,Conference,Scopus,ACM,1946-7729,-,ACM,https://dl.acm.org/sig/sigspatial,Geospatial,CONF ( acm AND sigspatial )
+Association of Geographic Information Laboratories in Europe (AGILE),Conference,Copernicus,,-,-,Copernicus,https://agile-gi.eu/conferences/proceedings,Geospatial,
+Geographical Information Science Research UK (GISRUK),Conference,Zenodo,,-,-,Zenodo,https://zenodo.org/communities/gisruk2023?q=&l=list&p=1&s=10&sort=newest,Geospatial,
+Journal of Maps,Journal,Scopus,,1744-5647,-,Taylor and Francis,https://www.tandfonline.com/toc/tjom20/current,Geospatial,
+International Journal of Digital Earth (IJDE),Journal,Scopus,,1753-8955,1753-8947,Taylor and Francis,https://www.tandfonline.com/journals/tjde20,Geospatial,
+Cartographica,Journal,Scopus,,0317-7173,1911-9925,University of Toronto Press,https://www.utpjournals.press/loi/cart,Geospatial,
+IEEEVis,Conference,Scopus,,,,IEEE,https://ieeevis.org/,Information Vis,"Query on existing collection (Isenberg, 2017 and Yoshizumi, 2020)"
+Proceedings of Human Factors in Computing,Journal,Scopus,ACM,1062-9432,-,ACM,https://dl.acm.org/conference/chi,Information Vis,CONF ( human AND factors AND in AND computing AND systems )
+EuroVIS,Conference,Eurographics,DBLP,-,-,Eurographics,https://diglib.eg.org/handle/10.2312/392,Information Vis,Also available in VISPUBDATA
+IEEE Pacific Visualisation Symposium (PacificVIS),Conference,Scopus,IEEEXplore,2165-8773,-,IEEE ,https://pacificvis.github.io/pvis2024/,Information Vis,Also available in VISPUBDATA
+IEEE Transactions on Visualization and Computer Graphics (TVCG),Journal,Scopus,IEEEXplore,1077-2626,1941-0506,IEEE,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945,Information Vis,
+ The Journal of Visualization and Interaction (JOVI),Conference,OpenAlex,CrossRef,2794-5502,,OpenAlex,https://openalex.org/sources/s4387289589,Information Vis,
+Journal of Computational Geometry,Journal,Scopus,,,1920180X,OJS,https://jocg.org/index.php/jocg,CompSci,
+Information Visualization Journal (IVI),Conference,Scopus,,1473-8716,1473-8724,SAGE,https://journals.sagepub.com/home/ivi,Information Vis,
+Computer Graphic Forum (CGF),Journal,Scopus,Eurographics,1467-8659,0167-7055,Wiley,https://onlinelibrary.wiley.com/journal/14678659,CompSci,from EuroVIS Track
+Proceedings of the ACM on Human-Computer Interaction,Conference,Scopus,,,2573-0142,ACM,https://dl.acm.org/journal/pacmhci,CompSci,
+Journal of Geovisualization and Spatial Analysis (JGSA),Journal,Scopus,Springer,2509-8810,2509-8829,Springer,https://link.springer.com/journal/41651,Geospatial,
+"Computers, Environment and Urban Systems",Journal,Scopus,Springer,0198-9715,,ScienceDirect,https://www.sciencedirect.com/journal/computers-environment-and-urban-systems,Geospatial,
+Geoinformatica,Journal,Scopus,Springer,1384-6175,1573-7624,Springer,https://link.springer.com/journal/10707,Geospatial,
+Environment and Planning B: Urban Analytics and City Science,Journal,Scopus,SAGE,2399-8083,2399-8091,Springer,https://journals.sagepub.com/home/EPB,Geospatial,
+ACM Transactions on Computer-Human Interaction,Journal,Scopus,,1073-0516,1557-7325,ACM,https://dl.acm.org/journal/tochi,CompSci,
