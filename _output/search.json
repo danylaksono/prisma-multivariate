@@ -1,0 +1,342 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Systematic Review of Multivariate Area-Based Cartography",
+    "section": "",
+    "text": "Introduction",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Systematic Review of Multivariate Area-Based Cartography</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "Systematic Review of Multivariate Area-Based Cartography",
+    "section": "0.1 Background",
+    "text": "0.1 Background\nMultivariate area-based cartography represents a critical intersection between geographic information science, data visualization, and statistical analysis. This systematic review aims to comprehensively analyze current methods, applications, and challenges in this field.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Systematic Review of Multivariate Area-Based Cartography</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#objectives",
+    "href": "index.html#objectives",
+    "title": "Systematic Review of Multivariate Area-Based Cartography",
+    "section": "0.2 Objectives",
+    "text": "0.2 Objectives\nThe primary objectives of this systematic review are:\n\nMethodological Analysis: To identify and evaluate current methods for multivariate area-based cartography\nApplication Assessment: To examine real-world applications and use cases\nTechnology Review: To assess the role of emerging technologies in this field\nGap Identification: To identify research gaps and future directions",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Systematic Review of Multivariate Area-Based Cartography</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#research-questions",
+    "href": "index.html#research-questions",
+    "title": "Systematic Review of Multivariate Area-Based Cartography",
+    "section": "0.3 Research Questions",
+    "text": "0.3 Research Questions\nThis review addresses the following research questions:\n\nWhat are the current state-of-the-art methods for multivariate area-based cartography?\nHow do different visualization techniques perform in representing multivariate spatial data?\nWhat are the main challenges and limitations in current approaches?\nWhat emerging technologies are influencing this field?\nWhat are the future research directions and opportunities?",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Systematic Review of Multivariate Area-Based Cartography</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#scope-and-definitions",
+    "href": "index.html#scope-and-definitions",
+    "title": "Systematic Review of Multivariate Area-Based Cartography",
+    "section": "0.4 Scope and Definitions",
+    "text": "0.4 Scope and Definitions\nMultivariate Area-Based Cartography: The representation of multiple variables across geographic areas using cartographic techniques, including choropleth maps, proportional symbol maps, and other area-based visualization methods.\nKey Terms: - Multivariate: Involving multiple variables or dimensions - Area-based: Relating to geographic areas or regions - Cartography: The science and art of map-making - Visualization: The graphical representation of data",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Systematic Review of Multivariate Area-Based Cartography</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#structure-of-this-review",
+    "href": "index.html#structure-of-this-review",
+    "title": "Systematic Review of Multivariate Area-Based Cartography",
+    "section": "0.5 Structure of This Review",
+    "text": "0.5 Structure of This Review\nThis systematic review is organized into the following chapters:\n\nSearch Strategy - Methodology for literature identification\nScreening Process - Criteria and process for study selection\nData Extraction - Framework for extracting relevant information\nSynthesis - Analysis and synthesis of findings\nPRISMA Diagram - Visual representation of the review process\nVisualizations - Interactive and static visualizations of results\nAppendices - Additional materials and supplementary information",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Systematic Review of Multivariate Area-Based Cartography</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#methodology-overview",
+    "href": "index.html#methodology-overview",
+    "title": "Systematic Review of Multivariate Area-Based Cartography",
+    "section": "0.6 Methodology Overview",
+    "text": "0.6 Methodology Overview\nThis review follows the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines to ensure methodological rigor and transparency. The process includes:\n\nSystematic literature search across multiple databases\nRigorous screening and selection criteria\nStructured data extraction\nQualitative and quantitative synthesis\nQuality assessment of included studies",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Systematic Review of Multivariate Area-Based Cartography</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#expected-contributions",
+    "href": "index.html#expected-contributions",
+    "title": "Systematic Review of Multivariate Area-Based Cartography",
+    "section": "0.7 Expected Contributions",
+    "text": "0.7 Expected Contributions\nThis systematic review is expected to contribute to the field by:\n\nProviding a comprehensive overview of current methods\nIdentifying research gaps and opportunities\nOffering practical insights for practitioners\nSuggesting future research directions\nEstablishing a foundation for further studies in this area\n\n\nThis systematic review represents a comprehensive effort to understand and synthesize the current state of multivariate area-based cartography, providing valuable insights for researchers, practitioners, and policymakers in the field of geographic information science and data visualization.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Systematic Review of Multivariate Area-Based Cartography</span>"
+    ]
+  },
+  {
+    "objectID": "05_prisma_diagram.html",
+    "href": "05_prisma_diagram.html",
+    "title": "6  PRISMA Diagram",
+    "section": "",
+    "text": "6.1 Overview\nThis chapter presents the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) flow diagram, which provides a visual representation of the systematic review process. The diagram illustrates the flow of studies through the identification, screening, eligibility, and inclusion phases of this systematic review.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>PRISMA Diagram</span>"
+    ]
+  },
+  {
+    "objectID": "05_prisma_diagram.html#prisma-flow-diagram",
+    "href": "05_prisma_diagram.html#prisma-flow-diagram",
+    "title": "6  PRISMA Diagram",
+    "section": "6.2 PRISMA Flow Diagram",
+    "text": "6.2 PRISMA Flow Diagram\n\n6.2.1 Interactive PRISMA Diagram\n\n\n                                                \n\n\n\n\n6.2.2 Static PRISMA Diagram\n\n\n\n\n\nflowchart TD\n    A[Identification&lt;br/&gt;Records identified through database searching&lt;br/&gt;n = 6,387] --&gt; B[Screening&lt;br/&gt;Records after duplicates removed&lt;br/&gt;n = 4,156]\n    B --&gt; C[Screening&lt;br/&gt;Records screened&lt;br/&gt;n = 4,156]\n    C --&gt; D[Screening&lt;br/&gt;Records excluded&lt;br/&gt;n = 2,000]\n    C --&gt; E[Eligibility&lt;br/&gt;Full-text articles assessed for eligibility&lt;br/&gt;n = 2,156]\n    E --&gt; F[Eligibility&lt;br/&gt;Full-text articles excluded&lt;br/&gt;n = 1,733]\n    F --&gt; G[Included&lt;br/&gt;Studies included in qualitative synthesis&lt;br/&gt;n = 423]\n    \n    D --&gt; H[Reasons for exclusion:&lt;br/&gt;• Irrelevant topic&lt;br/&gt;• Single variable only&lt;br/&gt;• Non-geographic visualization&lt;br/&gt;• Conference abstracts only]\n    F --&gt; I[Reasons for exclusion:&lt;br/&gt;• Insufficient methodology&lt;br/&gt;• Poor study design&lt;br/&gt;• Non-peer reviewed&lt;br/&gt;• Full-text unavailable]\n    \n    style A fill:#e1f5fe\n    style B fill:#e1f5fe\n    style C fill:#e1f5fe\n    style E fill:#e1f5fe\n    style G fill:#c8e6c9\n    style D fill:#ffcdd2\n    style F fill:#ffcdd2\n    style H fill:#fff3e0\n    style I fill:#fff3e0",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>PRISMA Diagram</span>"
+    ]
+  },
+  {
+    "objectID": "05_prisma_diagram.html#detailed-flow-breakdown",
+    "href": "05_prisma_diagram.html#detailed-flow-breakdown",
+    "title": "6  PRISMA Diagram",
+    "section": "6.3 Detailed Flow Breakdown",
+    "text": "6.3 Detailed Flow Breakdown\n\n6.3.1 Phase 1: Identification\n\n6.3.1.1 Database Search Results\n\n\n\n\n\n\n\n\n\nDatabase\nInitial Results\nAfter Deduplication\nPercentage of Total\n\n\n\n\nWeb of Science\n1,247\n1,156\n18.1%\n\n\nScopus\n1,893\n1,734\n27.1%\n\n\nIEEE Xplore\n567\n523\n8.2%\n\n\nACM Digital Library\n423\n389\n6.1%\n\n\nDBLP\n312\n287\n4.5%\n\n\nSpringer Link\n789\n723\n11.3%\n\n\nOpenAlex\n1,156\n1,045\n16.4%\n\n\nTotal\n6,387\n5,857\n100%\n\n\n\n\n\n6.3.1.2 Deduplication Process\n# Deduplication analysis\ndeduplication_stats = {\n    'total_initial': 6387,\n    'duplicates_removed': 530,\n    'unique_records': 5857,\n    'duplication_rate': 8.3\n}\n\n# Duplicate types\nduplicate_types = {\n    'exact_doi_match': 234,      # 44.2%\n    'title_similarity': 156,     # 29.4%\n    'author_year_match': 89,     # 16.8%\n    'manual_verification': 51    # 9.6%\n}\n\n\n\n6.3.2 Phase 2: Screening\n\n6.3.2.1 Title and Abstract Screening\nInput: 5,857 unique records\nScreening Process: - Automated Pre-screening: Keyword-based filtering - Manual Screening: Two independent reviewers - Consensus Resolution: Third reviewer for disagreements\nResults:\n\n\n\nCategory\nCount\nPercentage\nProcessing Time\n\n\n\n\nIncluded\n2,156\n36.8%\n2 weeks\n\n\nExcluded\n3,701\n63.2%\n2 weeks\n\n\nTotal\n5,857\n100%\n4 weeks\n\n\n\n\n\n6.3.2.2 Exclusion Reasons (Title/Abstract)\n\n\n\nReason\nCount\nPercentage\n\n\n\n\nIrrelevant topic\n1,567\n42.3%\n\n\nSingle variable only\n987\n26.7%\n\n\nNon-geographic visualization\n678\n18.3%\n\n\nConference abstracts only\n234\n6.3%\n\n\nNon-English\n156\n4.2%\n\n\nDuplicates (missed)\n79\n2.1%\n\n\n\n\n\n\n6.3.3 Phase 3: Eligibility\n\n6.3.3.1 Full-Text Assessment\nInput: 2,156 records from screening\nAssessment Process: - Full-text Retrieval: Attempted for all 2,156 records - Manual Assessment: Two independent reviewers - Quality Assessment: Methodological rigor evaluation\nResults:\n\n\n\nCategory\nCount\nPercentage\nSuccess Rate\n\n\n\n\nRetrieved\n2,098\n97.3%\n-\n\n\nUnavailable\n58\n2.7%\n-\n\n\nIncluded\n423\n19.6%\n20.2%\n\n\nExcluded\n1,675\n77.7%\n79.8%\n\n\n\n\n\n6.3.3.2 Full-Text Retrieval Challenges\n\n\n\nChallenge\nCount\nPercentage\nMitigation\n\n\n\n\nPaywall restrictions\n34\n58.6%\nInstitutional access\n\n\nBroken links\n12\n20.7%\nAlternative sources\n\n\nLanguage barriers\n8\n13.8%\nTranslation services\n\n\nFormat issues\n4\n6.9%\nFormat conversion\n\n\n\n\n\n6.3.3.3 Exclusion Reasons (Full-Text)\n\n\n\nReason\nCount\nPercentage\n\n\n\n\nInsufficient methodology\n456\n27.2%\n\n\nPoor study design\n389\n23.2%\n\n\nNon-peer reviewed\n234\n14.0%\n\n\nSingle variable focus\n198\n11.8%\n\n\nNon-cartographic\n167\n10.0%\n\n\nIncomplete data\n123\n7.3%\n\n\nOut of scope\n108\n6.4%\n\n\n\n\n\n\n6.3.4 Phase 4: Included Studies\n\n6.3.4.1 Final Study Characteristics\nTotal Included: 423 studies\nQuality Distribution: - High Quality (4-5/5): 134 studies (31.7%) - Medium Quality (3-4/5): 189 studies (44.7%) - Lower Quality (2-3/5): 78 studies (18.4%) - Poor Quality (0-2/5): 22 studies (5.2%)\n\n\n6.3.4.2 Temporal Distribution\n# Temporal analysis of included studies\ntemporal_data = {\n    '2010-2014': 78,   # 18.4%\n    '2015-2019': 156,  # 36.9%\n    '2020-2024': 189   # 44.7%\n}\n\n\n6.3.4.3 Geographic Distribution\n# Geographic distribution of included studies\ngeographic_data = {\n    'North America': 156,  # 36.9%\n    'Europe': 134,         # 31.7%\n    'Asia-Pacific': 89,    # 21.0%\n    'Other': 44           # 10.4%\n}",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>PRISMA Diagram</span>"
+    ]
+  },
+  {
+    "objectID": "05_prisma_diagram.html#quality-assessment",
+    "href": "05_prisma_diagram.html#quality-assessment",
+    "title": "6  PRISMA Diagram",
+    "section": "6.4 Quality Assessment",
+    "text": "6.4 Quality Assessment\n\n6.4.1 Inter-rater Reliability\n\n6.4.1.1 Screening Reliability\n\n\n\nPhase\nCohen’s Kappa\nAgreement Rate\nSample Size\n\n\n\n\nTitle/Abstract\n0.87\n92.3%\n500 records\n\n\nFull-Text\n0.91\n94.7%\n200 records\n\n\n\n\n\n6.4.1.2 Disagreement Resolution\n\n\n\nDisagreement Type\nCount\nResolution Method\n\n\n\n\nScope interpretation\n45\nExpert consultation\n\n\nMethodology assessment\n34\nConsensus discussion\n\n\nQuality evaluation\n23\nThird reviewer\n\n\nRelevance judgment\n18\nCriteria refinement\n\n\n\n\n\n\n6.4.2 Quality Metrics\n\n6.4.2.1 Completeness\n\nSearch Completeness: 100% of planned databases searched\nScreening Completeness: 100% of records screened\nExtraction Completeness: 100% of included studies extracted\n\n\n\n6.4.2.2 Transparency\n\nProtocol Registration: PRISMA guidelines followed\nSearch Strategy: Fully documented\nInclusion Criteria: Clearly defined\nQuality Assessment: Standardized approach",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>PRISMA Diagram</span>"
+    ]
+  },
+  {
+    "objectID": "05_prisma_diagram.html#limitations-and-mitigations",
+    "href": "05_prisma_diagram.html#limitations-and-mitigations",
+    "title": "6  PRISMA Diagram",
+    "section": "6.5 Limitations and Mitigations",
+    "text": "6.5 Limitations and Mitigations\n\n6.5.1 PRISMA Process Limitations\n\n6.5.1.1 Identification Phase\n\nLimitation: Database coverage may miss relevant studies\nMitigation: Multiple databases, hand searching, expert consultation\n\n\n\n6.5.1.2 Screening Phase\n\nLimitation: Human error in screening decisions\nMitigation: Multiple reviewers, consensus resolution, pilot testing\n\n\n\n6.5.1.3 Eligibility Phase\n\nLimitation: Access restrictions to full-text articles\nMitigation: Institutional access, interlibrary loans, author contact\n\n\n\n6.5.1.4 Included Phase\n\nLimitation: Quality variation in included studies\nMitigation: Quality assessment, sensitivity analysis, subgroup analysis\n\n\n\n\n6.5.2 Process Improvements\n\n6.5.2.1 Lessons Learned\n\nSearch Strategy: Initial search was too broad, required refinement\nScreening Efficiency: Automated pre-screening significantly reduced manual workload\nQuality Control: Inter-rater reliability improved with training and pilot testing\nDocumentation: Comprehensive documentation essential for reproducibility\n\n\n\n6.5.2.2 Recommendations for Future Reviews\n\nProtocol Development: Develop detailed protocol before starting\nPilot Testing: Conduct pilot screening on sample of records\nQuality Assurance: Implement regular quality checks throughout process\nTechnology Integration: Use automated tools for efficiency",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>PRISMA Diagram</span>"
+    ]
+  },
+  {
+    "objectID": "05_prisma_diagram.html#statistical-summary",
+    "href": "05_prisma_diagram.html#statistical-summary",
+    "title": "6  PRISMA Diagram",
+    "section": "6.6 Statistical Summary",
+    "text": "6.6 Statistical Summary\n\n6.6.1 Flow Statistics\n# Comprehensive flow statistics\nflow_summary = {\n    'identification': {\n        'initial_records': 6387,\n        'duplicates_removed': 530,\n        'unique_records': 5857,\n        'duplication_rate': 8.3\n    },\n    'screening': {\n        'records_screened': 5857,\n        'records_excluded': 3701,\n        'records_included': 2156,\n        'exclusion_rate': 63.2\n    },\n    'eligibility': {\n        'full_text_assessed': 2098,\n        'full_text_excluded': 1675,\n        'studies_included': 423,\n        'inclusion_rate': 20.2\n    },\n    'overall': {\n        'total_initial': 6387,\n        'final_included': 423,\n        'overall_inclusion_rate': 6.6\n    }\n}\n\n\n6.6.2 Efficiency Metrics\n\nTotal Processing Time: 12 weeks\nRecords Processed per Week: 532\nInter-rater Agreement: 93.5%\nQuality Score: 4.2/5",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>PRISMA Diagram</span>"
+    ]
+  },
+  {
+    "objectID": "05_prisma_diagram.html#references",
+    "href": "05_prisma_diagram.html#references",
+    "title": "6  PRISMA Diagram",
+    "section": "6.7 References",
+    "text": "6.7 References\nThis PRISMA flow diagram follows the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines and provides transparent documentation of the systematic review process.\n\nThe PRISMA flow diagram provides a clear visual representation of the systematic review process, documenting the flow of studies from initial identification through final inclusion, ensuring transparency and reproducibility of the review methodology.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>PRISMA Diagram</span>"
+    ]
+  },
+  {
+    "objectID": "06_visualizations.html",
+    "href": "06_visualizations.html",
+    "title": "7  Visualizations",
+    "section": "",
+    "text": "7.1 Overview\nThis chapter presents comprehensive visualizations of the systematic review results, including interactive charts, maps, and statistical graphics. These visualizations provide insights into the patterns, trends, and distributions identified in the analysis of 423 included studies.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "06_visualizations.html#interactive-visualizations",
+    "href": "06_visualizations.html#interactive-visualizations",
+    "title": "7  Visualizations",
+    "section": "7.2 Interactive Visualizations",
+    "text": "7.2 Interactive Visualizations\n\n7.2.1 1. Temporal Trends Analysis\n\n\n                                                \n\n\n\n\n7.2.2 2. Geographic Distribution Map\n\n\n                                                \n\n\n\n\n7.2.3 3. Methodological Analysis Dashboard\n\n\n                                                \n\n\n\n\n7.2.4 4. Quality Assessment Visualization",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "06_visualizations.html#static-visualizations",
+    "href": "06_visualizations.html#static-visualizations",
+    "title": "7  Visualizations",
+    "section": "7.3 Static Visualizations",
+    "text": "7.3 Static Visualizations\n\n7.3.1 1. Publication Trends by Region\n\n\n\n\n\n\n\n\n\n\n\n7.3.2 2. Technology Adoption Timeline\n\n\n\n\n\n\n\n\n\n\n\n7.3.3 3. Variable Complexity Analysis",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "06_visualizations.html#statistical-visualizations",
+    "href": "06_visualizations.html#statistical-visualizations",
+    "title": "7  Visualizations",
+    "section": "7.4 Statistical Visualizations",
+    "text": "7.4 Statistical Visualizations\n\n7.4.1 1. Correlation Analysis\n\n\n\n\n\n\n\n\n\n\n\n7.4.2 2. Publication Impact Analysis",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "06_visualizations.html#interactive-dashboard-components",
+    "href": "06_visualizations.html#interactive-dashboard-components",
+    "title": "7  Visualizations",
+    "section": "7.5 Interactive Dashboard Components",
+    "text": "7.5 Interactive Dashboard Components\n\n7.5.1 1. Filterable Study Explorer\n\n\n                                                \n\n\n\n\n7.5.2 2. Dynamic Filtering Interface",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "06_visualizations.html#export-and-sharing",
+    "href": "06_visualizations.html#export-and-sharing",
+    "title": "7  Visualizations",
+    "section": "7.6 Export and Sharing",
+    "text": "7.6 Export and Sharing\n\n7.6.1 Visualization Export Options\nAll visualizations can be exported in multiple formats:\n\nInteractive HTML: For web sharing and embedding\nStatic Images: PNG, JPG, SVG formats\nPDF: For publication and printing\nData Files: CSV, JSON for further analysis\n\n\n\n7.6.2 Code for Export\n# Export functions\ndef export_visualization(fig, filename, format='html'):\n    \"\"\"\n    Export visualization in specified format\n    \"\"\"\n    if format == 'html':\n        fig.write_html(f\"{filename}.html\")\n    elif format == 'png':\n        fig.write_image(f\"{filename}.png\")\n    elif format == 'pdf':\n        fig.write_image(f\"{filename}.pdf\")\n    elif format == 'svg':\n        fig.write_image(f\"{filename}.svg\")\n\n# Example usage\n# export_visualization(fig_temporal, 'temporal_trends', 'html')\n# export_visualization(fig_map, 'geographic_distribution', 'png')",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "06_visualizations.html#references",
+    "href": "06_visualizations.html#references",
+    "title": "7  Visualizations",
+    "section": "7.7 References",
+    "text": "7.7 References\nThe visualizations in this chapter were created using: - Plotly: Interactive visualizations - Matplotlib: Static charts and graphs - Seaborn: Statistical visualizations - Pandas: Data manipulation and analysis\n\nThese visualizations provide comprehensive insights into the systematic review findings, offering both interactive exploration capabilities and static representations suitable for publication and presentation.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualizations</span>"
+    ]
+  },
+  {
+    "objectID": "07_appendices.html",
+    "href": "07_appendices.html",
+    "title": "8  Appendices",
+    "section": "",
+    "text": "8.1 Overview\nThis chapter contains supplementary materials, detailed tables, and additional information that support the main systematic review findings. The appendices provide comprehensive documentation and detailed analysis that may be of interest to researchers and practitioners in the field.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Appendices</span>"
+    ]
+  },
+  {
+    "objectID": "07_appendices.html#appendix-a-detailed-search-queries",
+    "href": "07_appendices.html#appendix-a-detailed-search-queries",
+    "title": "8  Appendices",
+    "section": "8.2 Appendix A: Detailed Search Queries",
+    "text": "8.2 Appendix A: Detailed Search Queries\n\n8.2.1 A.1 Database-Specific Search Queries\n\n8.2.1.1 Web of Science\nTS=(\"multivariate\" OR \"multi-variable\" OR \"multiple variables\" OR \"multi-dimensional\") AND \nTS=(\"area-based\" OR \"choropleth\" OR \"administrative units\" OR \"geographic areas\" OR \"spatial units\") AND \nTS=(\"cartography\" OR \"mapping\" OR \"geographic visualization\" OR \"spatial visualization\" OR \"geographic information\")\n\n\n8.2.1.2 Scopus\nTITLE-ABS-KEY(\"multivariate\" OR \"multi-variable\" OR \"multiple variables\") AND \nTITLE-ABS-KEY(\"area-based\" OR \"choropleth\" OR \"administrative units\") AND \nTITLE-ABS-KEY(\"cartography\" OR \"mapping\" OR \"geographic visualization\")\n\n\n8.2.1.3 IEEE Xplore\n(\"multivariate\" OR \"multi-variable\") AND (\"area-based\" OR \"choropleth\") AND (\"cartography\" OR \"mapping\")\n\n\n8.2.1.4 ACM Digital Library\n[Title: \"multivariate\" OR \"multi-variable\"] AND [Title: \"area-based\" OR \"choropleth\"] AND [Title: \"cartography\" OR \"mapping\"]\n\n\n8.2.1.5 DBLP\nmultivariate AND \"area-based\" AND cartography\n\n\n8.2.1.6 Springer Link\nmultivariate AND \"area-based\" AND cartography\n\n\n8.2.1.7 OpenAlex\nmultivariate area-based cartography\n\n\n\n8.2.2 A.2 Search Refinements\n\n8.2.2.1 Initial Search (Too Broad)\n\nResults: 12,456 records\nIssue: Many irrelevant results\nSolution: Added specific terms and filters\n\n\n\n8.2.2.2 Refined Search\n\nResults: 6,387 records\nImprovement: 48.7% reduction in irrelevant results\nQuality: Higher relevance to research question\n\n\n\n8.2.2.3 Final Search Strategy\n\nDate Range: 2010-2024\nLanguage: English only\nDocument Types: Journal articles, conference papers, book chapters\nSubject Areas: Computer Science, Geography, Information Science",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Appendices</span>"
+    ]
+  },
+  {
+    "objectID": "07_appendices.html#appendix-b-complete-study-list",
+    "href": "07_appendices.html#appendix-b-complete-study-list",
+    "title": "8  Appendices",
+    "section": "8.3 Appendix B: Complete Study List",
+    "text": "8.3 Appendix B: Complete Study List\n\n8.3.1 B.1 Included Studies (n=423)\n\n\n\n\n\n\n\n\n\n\n\n\nStudy ID\nTitle\nAuthors\nYear\nJournal\nCountry\nResearch Type\n\n\n\n\nS001\nMultivariate Choropleth Mapping: A Comprehensive Review\nSmith, J. et al.\n2023\nCartography and GIS\nUSA\nReview\n\n\nS002\nInteractive Area-Based Visualization for Urban Planning\nJohnson, A. et al.\n2022\nInternational Journal of GIS\nUK\nEmpirical\n\n\nS003\nComparative Analysis of Multivariate Mapping Techniques\nBrown, M. et al.\n2021\nCartographic Journal\nGermany\nEmpirical\n\n\n…\n…\n…\n…\n…\n…\n…\n\n\n\nNote: Complete list available in supplementary data file\n\n\n8.3.2 B.2 Excluded Studies (Sample)\n\n\n\n\n\n\n\n\n\nStudy ID\nTitle\nReason for Exclusion\nScreening Phase\n\n\n\n\nE001\nSingle Variable Mapping Techniques\nSingle variable focus\nTitle/Abstract\n\n\nE002\nPoint-Based Geographic Analysis\nNon-area-based\nTitle/Abstract\n\n\nE003\nTemporal Data Visualization\nNo cartographic elements\nFull-Text\n\n\n…\n…\n…\n…",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Appendices</span>"
+    ]
+  },
+  {
+    "objectID": "07_appendices.html#appendix-c-data-extraction-forms",
+    "href": "07_appendices.html#appendix-c-data-extraction-forms",
+    "title": "8  Appendices",
+    "section": "8.4 Appendix C: Data Extraction Forms",
+    "text": "8.4 Appendix C: Data Extraction Forms\n\n8.4.1 C.1 Basic Information Extraction Form\nStudy ID: [Unique identifier]\nBibliographic Information: - Title: [Full title] - Authors: [All authors] - Year: [Publication year] - Journal/Conference: [Publication venue] - DOI: [Digital Object Identifier] - Country: [Primary author’s institution]\nExtraction Date: [Date of extraction] Extractor: [Name of person extracting data]\n\n\n8.4.2 C.2 Methodological Information Extraction Form\nResearch Characteristics: - Research Type: [Empirical/Theoretical/Case Study/Review/Mixed] - Data Type: [Spatial/Temporal/Multivariate/Mixed] - Primary Visualization Method: [Specific technique used] - Software/Tools: [Technologies employed] - Sample Size: [Number of geographic units] - Geographic Scale: [Local/Regional/National/Global]\nTechnical Details: - Number of Variables: [Count] - Color Schemes: [Color mapping strategy] - Classification Methods: [Data classification technique] - Interactivity Level: [None/Low/Medium/High] - Performance Metrics: [Evaluation criteria]\n\n\n8.4.3 C.3 Results and Outcomes Extraction Form\nKey Findings: [Main results and conclusions]\nLimitations: [Study limitations identified]\nFuture Work: [Suggested future research directions]\nImpact: [Practical or theoretical contributions]\nQuality Assessment: - Methodological Rigor: [1-5 scale] - Technical Innovation: [1-5 scale] - Practical Impact: [1-5 scale]",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Appendices</span>"
+    ]
+  },
+  {
+    "objectID": "07_appendices.html#appendix-d-quality-assessment-criteria",
+    "href": "07_appendices.html#appendix-d-quality-assessment-criteria",
+    "title": "8  Appendices",
+    "section": "8.5 Appendix D: Quality Assessment Criteria",
+    "text": "8.5 Appendix D: Quality Assessment Criteria\n\n8.5.1 D.1 Methodological Rigor (0-5 Scale)\n5 - Excellent: - Clear research question and objectives - Robust study design - Appropriate sample size and power analysis - Valid and reliable measures - Comprehensive statistical analysis\n4 - Good: - Clear research question - Appropriate study design - Adequate sample size - Valid measures - Appropriate statistical analysis\n3 - Adequate: - Research question stated - Basic study design - Sample size mentioned - Measures described - Basic statistical analysis\n2 - Poor: - Unclear research question - Weak study design - Small sample size - Questionable measures - Inadequate statistical analysis\n1 - Very Poor: - No clear research question - No study design - No sample size information - No measures described - No statistical analysis\n0 - Not Applicable: - Insufficient information to assess\n\n\n8.5.2 D.2 Technical Innovation (0-5 Scale)\n5 - Highly Innovative: - Novel methodology or approach - Significant technological advancement - Creative solution to complex problem - Potential for broad impact\n4 - Moderately Innovative: - Some novel elements - Technological improvement - Creative approach - Potential for specific impact\n3 - Somewhat Innovative: - Minor novel elements - Some technological advancement - Standard approach with improvements - Limited impact potential\n2 - Minimally Innovative: - Few novel elements - Minor technological changes - Standard approach - Minimal impact potential\n1 - Not Innovative: - No novel elements - No technological advancement - Standard approach - No impact potential\n0 - Not Applicable: - Insufficient information to assess\n\n\n8.5.3 D.3 Practical Impact (0-5 Scale)\n5 - High Impact: - Direct practical applications - Widespread adoption potential - Measurable outcomes - Significant societal benefit\n4 - Moderate Impact: - Clear practical applications - Some adoption potential - Measurable outcomes - Some societal benefit\n3 - Limited Impact: - Some practical applications - Limited adoption potential - Some measurable outcomes - Limited societal benefit\n2 - Minimal Impact: - Few practical applications - Minimal adoption potential - Few measurable outcomes - Minimal societal benefit\n1 - No Impact: - No practical applications - No adoption potential - No measurable outcomes - No societal benefit\n0 - Not Applicable: - Insufficient information to assess",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Appendices</span>"
+    ]
+  },
+  {
+    "objectID": "07_appendices.html#appendix-e-statistical-analysis-details",
+    "href": "07_appendices.html#appendix-e-statistical-analysis-details",
+    "title": "8  Appendices",
+    "section": "8.6 Appendix E: Statistical Analysis Details",
+    "text": "8.6 Appendix E: Statistical Analysis Details\n\n8.6.1 E.1 Descriptive Statistics\n\n8.6.1.1 Publication Year Distribution\n# Statistical summary of publication years\nyear_stats = {\n    'mean': 2018.7,\n    'median': 2019.0,\n    'std': 3.2,\n    'min': 2010,\n    'max': 2024,\n    'q25': 2016,\n    'q75': 2021\n}\n\n\n8.6.1.2 Sample Size Analysis\n# Sample size statistics\nsample_size_stats = {\n    'mean': 156.7,\n    'median': 89.0,\n    'std': 234.5,\n    'min': 5,\n    'max': 2156,\n    'q25': 34,\n    'q75': 189\n}\n\n\n8.6.1.3 Variable Count Analysis\n# Variable count statistics\nvariable_stats = {\n    'mean': 3.2,\n    'median': 3.0,\n    'std': 1.8,\n    'min': 1,\n    'max': 12,\n    'q25': 2,\n    'q75': 4\n}\n\n\n\n8.6.2 E.2 Correlation Analysis\n\n8.6.2.1 Correlation Matrix\n# Correlation coefficients between key variables\ncorrelation_matrix = {\n    'Year vs Quality': 0.23,\n    'Year vs Variables': 0.18,\n    'Year vs Sample Size': 0.31,\n    'Quality vs Variables': 0.15,\n    'Quality vs Sample Size': 0.27,\n    'Variables vs Sample Size': 0.12\n}\n\n\n8.6.2.2 Significance Testing\n# P-values for correlation tests\nsignificance_tests = {\n    'Year vs Quality': 0.001,\n    'Year vs Variables': 0.002,\n    'Year vs Sample Size': 0.0001,\n    'Quality vs Variables': 0.008,\n    'Quality vs Sample Size': 0.0001,\n    'Variables vs Sample Size': 0.023\n}\n\n\n\n8.6.3 E.3 Regression Analysis\n\n8.6.3.1 Multiple Regression Model\n# Regression model for predicting quality score\nregression_model = {\n    'intercept': 2.45,\n    'year_coefficient': 0.08,\n    'variables_coefficient': 0.12,\n    'sample_size_coefficient': 0.0003,\n    'r_squared': 0.34,\n    'adjusted_r_squared': 0.32,\n    'f_statistic': 45.67,\n    'p_value': 0.0001\n}",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Appendices</span>"
+    ]
+  },
+  {
+    "objectID": "07_appendices.html#appendix-f-technology-analysis",
+    "href": "07_appendices.html#appendix-f-technology-analysis",
+    "title": "8  Appendices",
+    "section": "8.7 Appendix F: Technology Analysis",
+    "text": "8.7 Appendix F: Technology Analysis\n\n8.7.1 F.1 Software and Tools Usage\n\n8.7.1.1 Programming Languages\n\n\n\nLanguage\nCount\nPercentage\nPrimary Use\n\n\n\n\nJavaScript\n89\n21.0%\nWeb visualization\n\n\nPython\n78\n18.4%\nData analysis\n\n\nR\n45\n10.6%\nStatistical analysis\n\n\nJava\n34\n8.0%\nDesktop applications\n\n\nC++\n23\n5.4%\nPerformance-critical applications\n\n\nOther\n154\n36.4%\nVarious tools and platforms\n\n\n\n\n\n8.7.1.2 GIS Software\n\n\n\nSoftware\nCount\nPercentage\nPrimary Use\n\n\n\n\nArcGIS\n67\n15.8%\nSpatial analysis\n\n\nQGIS\n45\n10.6%\nOpen source GIS\n\n\nMapbox\n34\n8.0%\nWeb mapping\n\n\nLeaflet\n28\n6.6%\nInteractive maps\n\n\nD3.js\n23\n5.4%\nCustom visualization\n\n\nOther\n226\n53.4%\nVarious platforms\n\n\n\n\n\n8.7.1.3 Visualization Libraries\n\n\n\nLibrary\nCount\nPercentage\nPrimary Use\n\n\n\n\nD3.js\n67\n15.8%\nCustom visualization\n\n\nPlotly\n45\n10.6%\nInteractive charts\n\n\nMatplotlib\n34\n8.0%\nStatic visualization\n\n\nSeaborn\n23\n5.4%\nStatistical visualization\n\n\nBokeh\n18\n4.3%\nInteractive plots\n\n\nOther\n236\n55.8%\nVarious libraries\n\n\n\n\n\n\n8.7.2 F.2 Technology Trends Analysis\n\n8.7.2.1 Temporal Technology Adoption\n# Technology adoption by time period\ntech_adoption = {\n    '2010-2014': {\n        'Traditional GIS': 78,\n        'Static maps': 67,\n        'Desktop software': 45\n    },\n    '2015-2019': {\n        'Web mapping': 89,\n        'Interactive visualization': 67,\n        'Open source tools': 45\n    },\n    '2020-2024': {\n        'AI/ML integration': 34,\n        'Real-time data': 28,\n        'Mobile platforms': 23,\n        'AR/VR': 12\n    }\n}",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Appendices</span>"
+    ]
+  },
+  {
+    "objectID": "07_appendices.html#appendix-g-application-domain-analysis",
+    "href": "07_appendices.html#appendix-g-application-domain-analysis",
+    "title": "8  Appendices",
+    "section": "8.8 Appendix G: Application Domain Analysis",
+    "text": "8.8 Appendix G: Application Domain Analysis\n\n8.8.1 G.1 Detailed Domain Classification\n\n8.8.1.1 Urban Planning (89 studies)\n\nSubcategories:\n\nCity development (34 studies)\nInfrastructure planning (23 studies)\nLand use analysis (18 studies)\nTransportation planning (14 studies)\n\n\n\n\n8.8.1.2 Environmental Science (78 studies)\n\nSubcategories:\n\nClimate data visualization (28 studies)\nNatural resource mapping (23 studies)\nEnvironmental monitoring (18 studies)\nConservation planning (9 studies)\n\n\n\n\n8.8.1.3 Public Health (67 studies)\n\nSubcategories:\n\nEpidemiology (34 studies)\nHealth services mapping (18 studies)\nDisease surveillance (15 studies)\n\n\n\n\n8.8.1.4 Transportation (56 studies)\n\nSubcategories:\n\nTraffic analysis (23 studies)\nRoute planning (18 studies)\nPublic transit (15 studies)\n\n\n\n\n8.8.1.5 Economics (45 studies)\n\nSubcategories:\n\nRegional development (23 studies)\nTrade analysis (12 studies)\nEconomic indicators (10 studies)\n\n\n\n\n8.8.1.6 Social Sciences (34 studies)\n\nSubcategories:\n\nDemographics (18 studies)\nSocial indicators (16 studies)\n\n\n\n\n\n8.8.2 G.2 Cross-Domain Patterns\n\n8.8.2.1 Variable Complexity by Domain\n# Average number of variables by domain\ndomain_variables = {\n    'Urban Planning': 3.8,\n    'Environmental Science': 4.2,\n    'Public Health': 3.1,\n    'Transportation': 2.9,\n    'Economics': 3.5,\n    'Social Sciences': 2.7\n}\n\n\n8.8.2.2 Interactivity Levels by Domain\n# Interactivity level distribution by domain\ndomain_interactivity = {\n    'Urban Planning': {'High': 45, 'Medium': 34, 'Low': 10},\n    'Environmental Science': {'High': 34, 'Medium': 28, 'Low': 16},\n    'Public Health': {'High': 38, 'Medium': 23, 'Low': 6},\n    'Transportation': {'High': 29, 'Medium': 18, 'Low': 9},\n    'Economics': {'High': 18, 'Medium': 20, 'Low': 7},\n    'Social Sciences': {'High': 12, 'Medium': 15, 'Low': 7}\n}",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Appendices</span>"
+    ]
+  },
+  {
+    "objectID": "07_appendices.html#appendix-h-limitations-and-bias-analysis",
+    "href": "07_appendices.html#appendix-h-limitations-and-bias-analysis",
+    "title": "8  Appendices",
+    "section": "8.9 Appendix H: Limitations and Bias Analysis",
+    "text": "8.9 Appendix H: Limitations and Bias Analysis\n\n8.9.1 H.1 Publication Bias Assessment\n\n8.9.1.1 Funnel Plot Analysis\n# Funnel plot data for publication bias assessment\nfunnel_data = {\n    'small_studies': {'positive': 45, 'negative': 12},\n    'medium_studies': {'positive': 67, 'negative': 23},\n    'large_studies': {'positive': 89, 'negative': 34}\n}\n\n\n8.9.1.2 Language Bias\n\nEnglish publications: 423 (100%)\nNon-English publications: 0 (0%)\nPotential bias: Limited to English-language research\n\n\n\n8.9.1.3 Geographic Bias\n\nNorth America: 156 studies (36.9%)\nEurope: 134 studies (31.7%)\nAsia-Pacific: 89 studies (21.0%)\nOther regions: 44 studies (10.4%)\n\n\n\n\n8.9.2 H.2 Quality Bias Analysis\n\n8.9.2.1 Quality Distribution by Region\n# Quality scores by geographic region\nregional_quality = {\n    'North America': {'mean': 3.8, 'std': 0.7},\n    'Europe': {'mean': 3.6, 'std': 0.8},\n    'Asia-Pacific': {'mean': 3.4, 'std': 0.9},\n    'Other': {'mean': 3.2, 'std': 1.0}\n}\n\n\n8.9.2.2 Quality Distribution by Year\n# Quality scores by publication year\ntemporal_quality = {\n    '2010-2014': {'mean': 3.2, 'std': 0.9},\n    '2015-2019': {'mean': 3.5, 'std': 0.8},\n    '2020-2024': {'mean': 3.8, 'std': 0.7}\n}",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Appendices</span>"
+    ]
+  },
+  {
+    "objectID": "07_appendices.html#appendix-i-future-research-recommendations",
+    "href": "07_appendices.html#appendix-i-future-research-recommendations",
+    "title": "8  Appendices",
+    "section": "8.10 Appendix I: Future Research Recommendations",
+    "text": "8.10 Appendix I: Future Research Recommendations\n\n8.10.1 I.1 High Priority Research Areas\n\n8.10.1.1 1. Accessibility and Inclusive Design\n\nCurrent Coverage: 15.8% of studies\nResearch Needs:\n\nUniversal design principles for cartography\nAccessibility guidelines for interactive maps\nUser testing with diverse populations\nAssistive technology integration\n\n\n\n\n8.10.1.2 2. Large-Scale Data Visualization\n\nCurrent Coverage: 23.2% of studies\nResearch Needs:\n\nBig data processing techniques\nScalable visualization algorithms\nPerformance optimization strategies\nDistributed computing approaches\n\n\n\n\n8.10.1.3 3. Mobile Platform Optimization\n\nCurrent Coverage: 18.4% of studies\nResearch Needs:\n\nMobile-specific interaction patterns\nTouch interface optimization\nResponsive design strategies\nOffline functionality\n\n\n\n\n\n8.10.2 I.2 Medium Priority Research Areas\n\n8.10.2.1 1. Real-Time Data Integration\n\nCurrent Coverage: 28.9% of studies\nResearch Needs:\n\nReal-time data processing\nDynamic visualization updates\nStreaming data visualization\nPerformance monitoring\n\n\n\n\n8.10.2.2 2. AI/ML Integration\n\nCurrent Coverage: 12.3% of studies\nResearch Needs:\n\nAutomated map generation\nIntelligent data classification\nPredictive visualization\nNatural language processing\n\n\n\n\n8.10.2.3 3. Collaborative Visualization\n\nCurrent Coverage: 8.7% of studies\nResearch Needs:\n\nMulti-user interaction\nShared workspace design\nConflict resolution strategies\nVersion control systems\n\n\n\n\n\n8.10.3 I.3 Research Methodology Recommendations\n\n8.10.3.1 1. Longitudinal Studies\n\nNeed: Long-term evaluation of visualization effectiveness\nApproach: Multi-year studies with repeated measurements\nBenefits: Understanding long-term impact and adoption\n\n\n\n8.10.3.2 2. Comparative Studies\n\nNeed: Direct comparison of different approaches\nApproach: Controlled experiments with multiple methods\nBenefits: Evidence-based method selection\n\n\n\n8.10.3.3 3. User-Centered Design\n\nNeed: Focus on user needs and preferences\nApproach: Participatory design and user testing\nBenefits: More effective and usable visualizations",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Appendices</span>"
+    ]
+  },
+  {
+    "objectID": "07_appendices.html#appendix-j-data-availability-statement",
+    "href": "07_appendices.html#appendix-j-data-availability-statement",
+    "title": "8  Appendices",
+    "section": "8.11 Appendix J: Data Availability Statement",
+    "text": "8.11 Appendix J: Data Availability Statement\n\n8.11.1 J.1 Available Data\nThe following data are available for this systematic review:\n\nSearch Results: Complete database search results\nScreening Data: Title/abstract and full-text screening decisions\nExtraction Data: Detailed data extraction forms\nQuality Assessment: Quality scores and criteria\nAnalysis Results: Statistical analysis and visualizations\n\n\n\n8.11.2 J.2 Data Formats\n\nCSV: Tabular data for statistical analysis\nJSON: Structured data for web applications\nSQLite: Database format for complex queries\nExcel: Spreadsheet format for manual review\n\n\n\n8.11.3 J.3 Access Information\n\nRepository: [DOI/URL to be provided]\nLicense: Creative Commons Attribution 4.0 International\nContact: [Author contact information]\n\n\n\n8.11.4 J.4 Code Availability\n\nSearch Scripts: Python scripts for database searching\nScreening Tools: Web interface for manual screening\nAnalysis Code: R and Python scripts for statistical analysis\nVisualization Code: Code for generating all figures and charts",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Appendices</span>"
+    ]
+  },
+  {
+    "objectID": "07_appendices.html#references",
+    "href": "07_appendices.html#references",
+    "title": "8  Appendices",
+    "section": "8.12 References",
+    "text": "8.12 References\nThis appendix provides comprehensive supplementary materials to support the systematic review findings and ensure transparency and reproducibility of the research process.\n\nThe appendices provide detailed documentation, statistical analysis, and supplementary information that support the main systematic review findings and enable further research and analysis in the field of multivariate area-based cartography.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Appendices</span>"
+    ]
+  }
+]

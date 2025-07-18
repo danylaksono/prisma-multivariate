@@ -15,7 +15,7 @@ book:
     - 06_visualizations.qmd
     - 07_appendices.qmd
 bibliography: references.bib
-csl: custom.csl
+# csl: custom.csl
 format:
   html:
     toc: true
